@@ -89,7 +89,7 @@
 #	elif defined(_MSC_VER) && _MSC_VER >= 1900
 #		define PUGIXML_NOEXCEPT noexcept
 #	else
-#		define PUGIXML_NOEXCEPT
+#		define PUGIXML_NOEXCEPT throw()
 #	endif
 #endif
 
